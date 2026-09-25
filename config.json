@@ -1,0 +1,22 @@
+{
+    "SiteName":  "Southaven",
+    "RmsBaseUrl":  "http://10.27.72.181",
+    "Username":  "ADMIN",
+    "Password":  "111111",
+    "Slack":  {
+                  "BotToken":  "xoxb-PASTE_SAME_TOKEN_AS_SHOEMAKERSVILLE",
+                  "ChannelId":  "C07NF8WGNAJ"
+              },
+    "ThresholdMinutes":  20,
+    "PollSeconds":  60,
+    "LookbackDays":  7,
+    "OfflineAlertAfterFailures":  10,
+    "MapSnapshot":  {
+                        "Enabled":  true,
+                        "MapPath":  "/static/mantis/#/monitor/map",
+                        "SettleSeconds":  12,
+                        "DebugPort":  9333,
+                        "Width":  1920,
+                        "Height":  1080
+                    }
+}
